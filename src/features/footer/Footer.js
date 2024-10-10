@@ -1,10 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { availableColors, capitalize } from '../filters/colors'; // Ensure colors.js exists
-import { StatusFilters, colorFilterChanged, statusFilterChanged } from '../filters/filtersSlice'; // Ensure filtersSlice.js exists
-
-
-import { availableColors, capitalize } from '../filter/colors'
+import { availableColors, capitalize } from '../filter/colors'; 
 import {
   StatusFilters,
   colorFilterChanged,

@@ -5,7 +5,7 @@ import {
   createEntityAdapter,
 } from '@reduxjs/toolkit'
 import { client } from '../../api/client'
-import { StatusFilters } from '../filters/filtersSlice'
+import { StatusFilters } from '../filter/filtersSlice'
 
 const todosAdapter = createEntityAdapter()
 

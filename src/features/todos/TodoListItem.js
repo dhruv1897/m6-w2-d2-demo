@@ -1,9 +1,11 @@
 import React from 'react'
+import { availableColors } from '../filter/colors'; // Ensure colors.js exists
+import { capitalize } from '../filter/colors';
+
 import { useSelector, useDispatch } from 'react-redux'
 
 import { ReactComponent as TimesSolid } from './times-solid.svg'
 
-import { availableColors, capitalize } from '../filters/colors'
 import {
   todoColorSelected,
   todoDeleted,
