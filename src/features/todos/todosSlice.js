@@ -5,9 +5,7 @@ import {
   createEntityAdapter,
 } from '@reduxjs/toolkit'
 import { client } from '../../api/client'
-import { StatusFilters } from '../filter/filtersSlice';
-import { availableColors } from '../filters/colors'; // Ensure colors.js exists
-
+import { StatusFilters } from '../filters/filtersSlice'
 
 const todosAdapter = createEntityAdapter()
 
